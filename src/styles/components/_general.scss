@@ -1,0 +1,13 @@
+.social-networks {
+  display: flex;
+  font-size: 1rem;
+
+  .social-networks__item {
+    padding: 0.5rem;
+    margin-right: 1rem;
+
+    svg {
+      margin-right: 0.6rem;
+    }
+  }
+}

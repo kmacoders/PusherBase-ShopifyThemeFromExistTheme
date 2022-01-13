@@ -1,0 +1,62 @@
+// Grid
+$width-site: 1200px;
+$gutter-site: 15px;
+$gutter-site-mobile: 15px;
+$section-padding-top: 80px;
+$section-padding-bottom: 80px;
+$section-spacing-top: 10px;
+$section-spacing-bottom: 10px;
+$section-spacing-sm-top: 20px;
+$section-spacing-sm-bottom: 20px;
+$section-spacing-md-top: 30px;
+$section-spacing-md-bottom: 30px;
+$section-spacing-lg-top: 40px;
+$section-spacing-lg-bottom: 40px;
+$section-spacing-xl-top: 50px;
+$section-spacing-xl-bottom: 50px;
+$swiper-color: #007aff;
+$main-green-color: #507120;
+$main-red-color: #980008;
+$main-grey-color: #8c8c8c;
+
+
+// Heading text ************************
+$font-heading-family: var(--font-heading-family) !default;
+$font-heading-style: var(--font-heading-style) !default;
+$font-heading-weight: var(--font-heading-weight) !default;
+
+// Body text ************************
+$font-body-family: var(--font-body-family) !default;
+$font-body-style: var(--font-body-style) !default;
+$font-body-weight: var(--font-body-weight) !default;
+
+// Base size & line-height ************************
+$font-base-size: 16px !default;
+
+// Global brand colors
+$color-base-primary: rgba(var(--color-base-accent-primary), 1) !default;
+$color-base-secondary: rgba(var(--color-base-accent-secondary), 1) !default;
+
+// Text
+$color-base-text: rgba(var(--color-base-text), 1) !default;
+
+// Buttons
+// Secondary button style can be added if needed.
+$color-base-solid-button: rgba(var(--color-base-solid-button), 1) !default;
+$color-base-outline-button: rgba(var(--color-base-outline-button), 1) !default;
+
+// Background
+$color-base-background-primary: rgba(
+  var(--color-base-background-primary),
+  1
+) !default;
+$color-base-background-secondary: rgba(
+  var(--color-base-background-secondary),
+  1
+) !default;
+
+:root {
+  //--color-background: #FFFFFF;
+  --font-heading-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  --font-body-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}

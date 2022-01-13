@@ -1,0 +1,39 @@
+/// - BASE 
+// Include all Variable, Mixins, Function, Grid...
+@import './utils/utils-dir';
+@import './vendors/grid';
+@import './vendors/splide';
+
+/// - GENERIC
+/// Reset............A level playing field using @necolas’s Normalize.
+/// Print................Reset-like styles for print media.
+/// Elements.............Sensibly and tersely share some global commonalities.
+///
+// @import './generic/reset';
+// @import './generic/print';
+// @import './generic/elements';
+// @import './generic/basedawn';
+
+/// - COMPONENTS
+// Build and include your project’s UI components.
+// Uncomment and add to this as necessary.
+///
+/// Button..............Specific styles for btn component and its variations.
+/// Typeface............Specific styles for heading component and its size variations.
+/// Field...............Specific styles for field and input component.
+///
+@import './components/general';
+@import './components/button';
+@import './components/typeface';
+@import './components/field';
+@import './components/svg';
+@import './components/page-header';
+
+/// - SECTIONS
+// These are base section.
+///
+/// Header..............Shopify static section.
+/// Footer..............Shopify static section.
+///
+// @import './sections/header';
+// @import './sections/footer';
