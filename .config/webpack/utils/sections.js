@@ -12,7 +12,7 @@ module.exports = function () {
   fs.readdirSync(sectionsStylesDir).forEach((file) => {
     const sectionName = path.parse(file).name
     if (!sectionName.startsWith('_'))
-      entrypoints[`section-${sectionName}`] = path.join(
+      entrypoints[`pusher-section-${sectionName}`] = path.join(
         sectionsStylesDir,
         `${sectionName}.scss`
       )

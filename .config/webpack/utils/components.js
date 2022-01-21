@@ -14,8 +14,8 @@ module.exports = function () {
   fs.readdirSync(componentsStyles).forEach((file) => {
     const componentName = path.parse(file).name
     if (!componentName.startsWith('_')) {
-      entrypoints[`component-${componentName}`] = []
-      entrypoints[`component-${componentName}`].push(
+      entrypoints[`pusher-component-${componentName}`] = []
+      entrypoints[`pusher-component-${componentName}`].push(
         path.join(componentsStyles, `${componentName}.scss`)
       )
     }
@@ -26,11 +26,11 @@ module.exports = function () {
     const componentFile = path.join(componentsScripts, `${componentName}.js`)
 
     if (fs.existsSync(componentFile)) {
-      if (!entrypoints.hasOwnProperty(`component-${componentName}`)) {
-        entrypoints[`component-${componentName}`] = []
+      if (!entrypoints.hasOwnProperty(`pusher-component-${componentName}`)) {
+        entrypoints[`pusher-component-${componentName}`] = []
       }
 
-      entrypoints[`component-${componentName}`].push(
+      entrypoints[`pusher-component-${componentName}`].push(
         path.join(componentsScripts, `${componentName}.js`)
       )
     }
